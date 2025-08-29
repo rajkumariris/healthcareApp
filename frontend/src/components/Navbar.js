@@ -1,12 +1,14 @@
 import React from "react";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 function Navbar() {
+    const navigate = useNavigate();
     return (
         <nav className="navbar">
             <div>
                 <img src="logo.png" alt="Logo" />
             </div>
-            <div>
+            <div >
                 <a href="/" >Find Doctors</a>
                 <a href="doctors">Video Consults</a>
                 <a href="appointments">Surgeries</a>
@@ -17,7 +19,7 @@ function Navbar() {
                 <a href="/" >For Corporate</a>
                 <a href="doctors">For Providers</a>
                 <a href="appointments">Security & Help</a>
-                <a href="profile">Login & Sign up</a>
+                <a href="" onClick={() => navigate("/login")}>Login & Sign up</a>
             </div>
         </nav>
     );

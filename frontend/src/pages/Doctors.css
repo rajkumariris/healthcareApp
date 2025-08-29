@@ -1,0 +1,53 @@
+.doctors-list {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    margin: 0 0 0 2%;
+}
+
+.doctors-card {
+    display: flex;
+    background: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 12px 0;
+    width: 60%;
+    height:300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.doctor-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+
+
+.doctor-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     width: 30%;
+     height: 30%;
+     
+}
+
+.doctor-image img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.doctor-actions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+
+}
