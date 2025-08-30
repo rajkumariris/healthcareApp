@@ -84,6 +84,9 @@ function Home() {
                     )}
                 </form>
             </div>
+            <div>
+                <h1 className="bg-blue-500 text-2xl font-bold mb-6 text-center">Welcome to the Home Page</h1>
+            </div>
             <Cards />
           
 
